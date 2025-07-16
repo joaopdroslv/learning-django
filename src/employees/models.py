@@ -12,3 +12,7 @@ class Employee(models.Model):
     # Creating timestamps
     created_at = models.DateTimeField(auto_now_add=True)
     updated_at = models.DateTimeField(auto_now=True)
+
+    def __str__(self):
+        return f'<Employee(id={self.pk}, first_name="{self.first_name}", last_name="{self.first_name}"), email_address="{self.email_address}">'
+        return f"[ {self.pk} ] {self.first_name} {self.last_name}"

@@ -24,4 +24,5 @@ from . import views
 urlpatterns = [
     path("admin/", admin.site.urls),
     path("", views.home),
+    path("employees/", views.employees),
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)  # Default configuration to upload media
