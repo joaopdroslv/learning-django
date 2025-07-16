@@ -1,0 +1,38 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Learning Django</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="{% static 'css/styles.css' %}" />
+  </head>
+  <body>
+    <div class="container mt-5">
+      <img src="{% static 'imgs/django.png' %}" alt="" />
+      <h3 class="mt-4">Welcome to the Django application homepage!</h3>
+      <p class="mt-4">
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut commodi
+        necessitatibus non dolor vel consectetur consequatur dicta doloribus
+        magni, reprehenderit eligendi harum at illo perspiciatis alias ducimus
+        voluptatibus placeat. Dolorem. Esse ea veniam impedit a sapiente
+        nesciunt vitae dolorum id sit sint. Iste, harum officia quia, distinctio
+        enim laboriosam porro id tempora velit sequi unde repellat! Doloribus
+        minima vitae aliquam!
+      </p>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
