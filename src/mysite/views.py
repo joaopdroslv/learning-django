@@ -8,15 +8,3 @@ def home(request):
 
     # return HttpResponse("<h2>Welcome to the application homepage!</h2>")
     return render(request, "home.html")
-
-
-def employees(request):
-
-    employees = Employee.objects.all()
-    print(employees)
-
-    context = {
-        "employees": employees,
-    }
-
-    return render(request, "employees.html", context)
