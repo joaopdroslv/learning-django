@@ -56,3 +56,8 @@ The main goal of this project was to get hands-on experience with:
     python manage.py runserver
     ```
 5. Visit http://127.0.0.1:8000/ to view the homepage
+
+---
+
+📌 Notes
+This project is intentionally simple and was developed for the purpose of understanding how Django works at a basic level. No authentication, advanced forms, or external integrations were added at this stage.
